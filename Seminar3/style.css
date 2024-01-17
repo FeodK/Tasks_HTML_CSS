@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&subset=cyrillic");
+* {
+  margin: 0;
+  padding: 0;
+  background: #020a18;
+}
+a {
+  text-decoration: none;
+}
+.top__header {
+  background: black;
+  backdrop-filter: blur(100px);
+  text-align: center;
+}
+.header__links {
+  color: #fff;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.top {
+  background: #020a18;
+}
+.top__img {
+  float: right;
+}
+.top__info {
+  text-align: left;
+}
+.firstTop__title {
+  color: #3a68b8;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.secondTop__title {
+  color: #fff;
+  font-family: Open Sans;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 800;
+}
+.top__paragraph {
+  color: #fff;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+}
+.top__buttons {
+  text-align: center;
+  color: #fff;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 5px;
+  background: #3a68b8;
+}
+.img_button {
+  background: #3a68b8;
+  height: 20px;
+}
+.top__logo {
+  text-align: center;
+}
