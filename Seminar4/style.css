@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&subset=cyrillic");
+* {
+  margin: 0;
+  padding: 0;
+  background: #020a18;
+}
+a {
+  text-decoration: none;
+}
+.center {
+  padding-left: calc(50% - 980px);
+  padding-right: calc(50% - 980px);
+}
+.top__header {
+  background: black;
+  backdrop-filter: blur(100px);
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 40px;
+}
+.header__links {
+  color: #fff;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-top: 39px;
+  padding-bottom: 39px;
+}
+.top {
+  background: #020a18;
+}
+.top__content {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 160px;
+  gap: 128px;
+}
+.top__info {
+  width: 604px;
+}
+.firstTop__title {
+  color: #3a68b8;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.secondTop__title {
+  color: #fff;
+  font-family: Open Sans;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 800;
+  padding-bottom: 40px;
+}
+.top__paragraph {
+  color: #fff;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  padding-bottom: 65px;
+}
+.top__buttons {
+  text-align: center;
+  color: #fff;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 5px;
+  background: #3a68b8;
+  display: inline-flex;
+  padding: 15px 30px;
+  align-items: center;
+  margin-right: 20px;
+  flex-direction: row;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.img_button {
+  background: #3a68b8;
+  height: 20px;
+  padding-right: 10px;
+}
+.top__logo {
+  padding-top: 200px;
+  padding-bottom: 100px;
+  gap: 72px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
