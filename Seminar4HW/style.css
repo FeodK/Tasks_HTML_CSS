@@ -14,13 +14,30 @@ a {
 .header__block {
   padding-top: 40px;
   display: flex;
-  flex-wrap: wrap;
-  align-content: center;
+  align-items: center;
   justify-content: space-around;
+  flex-wrap: wrap;
+}
+.logo {
+  display: flex;
   align-items: center;
 }
-.img {
-  padding-left: 50px;
+.p1 {
+  padding-left: 14px;
+  color: #000;
+  font-family: Gilroy-Bold;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.p2 {
+  color: #f25822;
+  font-family: Gilroy-Bold;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 .menu__links {
   padding-right: 34px;
@@ -37,6 +54,7 @@ a {
   flex-direction: row-reverse;
   justify-content: center;
   align-items: center;
+  gap: 41px;
 }
 .info__title {
   width: 522px;
